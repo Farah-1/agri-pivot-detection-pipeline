@@ -1,19 +1,21 @@
-Deep Learning Pipeline for Agricultural Pivot Detection & Tracking
+### Deep Learning Pipeline for Agricultural Pivot Detection & Tracking
+
 An end-to-end, production-ready computer vision and geospatial data pipeline designed to detect, delineate, and track circular agricultural center-pivot irrigation systems using multi-temporal satellite imagery. This system fuses advanced deep learning architectures with classical computer vision and geospatial algorithms to achieve highly accurate, time-series spatial tracking.
 
-Key Features
-Custom Object Detection & Hyperparameter Optimization: Fine-tuned state-of-the-art YOLO models optimized specifically for detecting circular features in high-resolution remote sensing data.
+## Key Features
 
-Geospatial Integration: Robust processing of multi-channel temporal satellite imagery using advanced spatial frameworks.
+* **Custom Object Detection & Hyperparameter Optimization:** Fine-tuned state-of-the-art YOLO models optimized specifically for detecting circular features in high-resolution remote sensing data.
+* **Geospatial Integration:** Robust processing of multi-channel temporal satellite imagery using advanced spatial frameworks.
+* **Time-Series Tracking:** Tracking logic that maps and monitors agricultural pivots across chronological data points using absolute geographical coordinates.
+* **Hybrid Validation:** Dual-validation pipeline leveraging classical computer vision metrics alongside deep learning inference to maximize spatial reliability.
 
-Time-Series Tracking: Tracking logic that maps and monitors agricultural pivots across chronological data points using absolute geographical coordinates.
+---
 
-Hybrid Validation: Dual-validation pipeline leveraging classical computer vision metrics alongside deep learning inference to maximize spatial reliability.
+## System Architecture & Codebase Structure
 
-System Architecture & Codebase Structure
 The codebase follows professional, modular Python development patterns ensuring clean separation of concerns:
 
-Plaintext
+```text
 ├── datadownload.py       # Automated satellite imagery retrieval and cloud filtering
 ├── packages.py           # Centralized dependency management and environment setup
 ├── params.py             # Configurable hyperparameters, thresholds, and spatial constants
@@ -36,7 +38,7 @@ Installation & Environment Setup
 Clone the Repository:
 
 Bash
-git clone https://github.com/FarahAdel/agricultural-pivot-detection.git
+git clone [https://github.com/FarahAdel/agricultural-pivot-detection.git](https://github.com/FarahAdel/agricultural-pivot-detection.git)
 cd agricultural-pivot-detection
 Set Up a Virtual Environment:
 
